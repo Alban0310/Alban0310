@@ -6,13 +6,10 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<title>Site via Github</title>
+		<title>{{site.title}}</title>
 	</head>
 	<body>
-		<header>
-			<h1>{{site.title}}</h1>
-			<h2>{{site.slogan}}</h2>
-		</header>
+		{% include header.html %}
 		<main>
 			{{site.presentation}}
 		</main>
