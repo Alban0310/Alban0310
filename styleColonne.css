@@ -3,3 +3,7 @@
 	margin-right: 25px;
 	border: 2px solid black;
 }
+
+footer {
+	clear: both;
+}

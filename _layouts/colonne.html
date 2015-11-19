@@ -3,19 +3,19 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="styleColonne.css">
-		<title>{{site.title}}</title>
+		<title>{{page.title}}</title>
 	</head>
 	<body>
 		{% include header.html %}
 		<main>
-			<div id="colonneD">
-				{{site.colonneD}}
+			<div id="colonneG">
+				{{site.colonneG}}
 			</div>
 			<div id="colonneC">
 				{{content}}
 			</div>
-			<div id="colonneG">
-				{{site.colonneG}}
+			<div id="colonneD">
+				{{site.colonneD}}
 			</div>
 		</main>
 		{% include footer.html %}
