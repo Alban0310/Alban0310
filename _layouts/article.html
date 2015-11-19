@@ -3,15 +3,16 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<title>{{site.title}}</title>
+		<title>{{page.title}}</title>
 	</head>
 	<body>
 		{% include header.html %}
 		<main>
 			{% include menu.html %}
 			<br />
+			<br />
+			{{page.titleArticle}}
 			{{content}}
-			{% include listArticle.html %}
 		</main>
 		{% include footer.html %}
 	</body>
