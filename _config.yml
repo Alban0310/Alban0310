@@ -4,3 +4,4 @@ email: sagot.alban@orange.fr
 nom: Sagot Alban
 colonneD: Texte de la colonne de droite
 colonneG: Texte de la colonne de gauche
+excerpt_separator: <!--more-->
