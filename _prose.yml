@@ -1,0 +1,8 @@
+prose:
+	rooturl: '_posts'
+	ignore: 
+		-installation.md
+		-_config.yml
+		- /layouts
+		- /_includes
+	siteurl: "http://alban0310.github.io"
