@@ -5,4 +5,13 @@ prose:
 		-_config.yml
 		- /layouts
 		- /_includes
+		- /_site
+		- /bin
+		- /boostrap
+		- /font-awesome
+		- /fonts
+		- /js
+		- LICENSE
+		- README.md
+		- _prose.yml
 	siteurl: "http://alban0310.github.io"
