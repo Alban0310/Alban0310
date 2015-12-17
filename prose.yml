@@ -1,0 +1,2 @@
+ignore: ['installation.md', '_config.yml']
+siteurl: "http://alban0310.github.io"
